@@ -1,6 +1,8 @@
 * {
-  margin:0; padding:0;
+  margin:0;
+  padding:0;
 }
+
 header {
   width: 100%;
   padding: 15px 0;
@@ -20,16 +22,21 @@ header p{
   box-shadow: none;
 }
 
-.btn-social-circle--github {
+a.btn-social-circle--github {
 	color: #808080;
+	font-size: 40px;
+	border: none;  /* 枠線を消す */
+    outline: none; /* クリックしたときに表示される枠線を消す */
 }
 
-.btn-social-circle--twitter {
+a.btn-social-circle--twitter {
 	color: #808080;
+	font-size: 40px;
 }
 
-.btn-social-circle--instagram {
+a.btn-social-circle--instagram {
 	color: #808080;
+	font-size: 40px;
 }
 
 /*アリクイ*/
@@ -84,8 +91,10 @@ font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒ�
 
 /*「親要素の横幅が画面幅の75％」＋「img要素の横幅は親要素の全体」*/
 .resizeimage{
-	margin-left: 10%;
-	margin-right:10%;
+	margin-left: 5%;
+	padding-left:5%;
+	margin-right:5%;
+	padding-right:5%;
 	width: 80%;
 }
 
