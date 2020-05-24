@@ -101,3 +101,34 @@ font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒ�
 .resizeimage img {
 	width: 100%; /* 最大幅 */
 }
+
+
+/*--------------------------------
+ About
+---------------------------------*/
+.about-section .inner {
+  max-width: 1000px;
+  text-align: center;
+}
+
+.about-item {
+  
+}
+
+
+.about-image-wrapper img{
+	margin-left: 40%;
+	padding-left:5%;
+	margin-right:40%;
+	padding-right:5%;
+	width:10%;
+}
+
+.about-body {
+  text-align: center;
+}
+
+.about-body p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
