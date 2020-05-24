@@ -8,6 +8,31 @@ header {
   text-align: center;
 }
 
+/*SNSのアイコンの設定*/
+header p{
+	padding:30px;
+}
+
+.btn-social-circle .fa {
+  line-height: 30px;
+}
+.btn-social-circle:hover {
+  box-shadow: none;
+}
+
+.btn-social-circle--github {
+	color: #808080;
+}
+
+.btn-social-circle--twitter {
+	color: #808080;
+}
+
+.btn-social-circle--instagram {
+	color: #808080;
+}
+
+/*アリクイ*/
 header .headline img{
   width:8%;
   height:auto;
